@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1592535503">
+  <File Type="RDS-PROPCONSTRS" Name="sccomp_dataflow_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="sccomp_dataflow.tcl"/>
+  <File Type="RDS-RDS" Name="sccomp_dataflow.vds"/>
+  <File Type="RDS-UTIL" Name="sccomp_dataflow_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="sccomp_dataflow_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="sccomp_dataflow.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="sccomp_dataflow_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="sccomp_dataflow_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/RegFiles.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCReg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/NPC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IRAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EXT.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DRAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/parameter.vh">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ControlUnit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ADD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sccomp_dataflow.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Mars/test_addi.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/test_addi.mem"/>
+        <Attr Name="ImportTime" Val="1592447238"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_addiu.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_addiu.mem"/>
+        <Attr Name="ImportTime" Val="1592467310"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_lui.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_lui.mem"/>
+        <Attr Name="ImportTime" Val="1592467905"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_add.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_add.mem"/>
+        <Attr Name="ImportTime" Val="1592468069"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_addu.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_addu.mem"/>
+        <Attr Name="ImportTime" Val="1592482866"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_and.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_and.mem"/>
+        <Attr Name="ImportTime" Val="1592483047"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_andi.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_andi.mem"/>
+        <Attr Name="ImportTime" Val="1592483235"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_lwsw.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_lwsw.mem"/>
+        <Attr Name="ImportTime" Val="1592483362"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_lwsw2.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_lwsw2.mem"/>
+        <Attr Name="ImportTime" Val="1592483491"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_nor.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_nor.mem"/>
+        <Attr Name="ImportTime" Val="1592483680"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_or.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_or.mem"/>
+        <Attr Name="ImportTime" Val="1592483866"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_ori.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_ori.mem"/>
+        <Attr Name="ImportTime" Val="1592483989"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_sll.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_sll.mem"/>
+        <Attr Name="ImportTime" Val="1592484075"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_sllv.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_sllv.mem"/>
+        <Attr Name="ImportTime" Val="1592484267"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_slt.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_slt.mem"/>
+        <Attr Name="ImportTime" Val="1592484391"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_slti.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_slti.mem"/>
+        <Attr Name="ImportTime" Val="1592484522"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_sltiu.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_sltiu.mem"/>
+        <Attr Name="ImportTime" Val="1592484638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_sltu.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_sltu.mem"/>
+        <Attr Name="ImportTime" Val="1592484718"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_sra.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_sra.mem"/>
+        <Attr Name="ImportTime" Val="1592484802"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_srav.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_srav.mem"/>
+        <Attr Name="ImportTime" Val="1592485746"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_srl.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_srl.mem"/>
+        <Attr Name="ImportTime" Val="1592485863"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_srlv.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_srlv.mem"/>
+        <Attr Name="ImportTime" Val="1592485964"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_sub.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_sub.mem"/>
+        <Attr Name="ImportTime" Val="1592486076"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_subu.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_subu.mem"/>
+        <Attr Name="ImportTime" Val="1592488999"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_xor.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_xor.mem"/>
+        <Attr Name="ImportTime" Val="1592489144"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_xori.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_xori.mem"/>
+        <Attr Name="ImportTime" Val="1592489269"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_beq.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_beq.mem"/>
+        <Attr Name="ImportTime" Val="1592489394"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_bne.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_bne.mem"/>
+        <Attr Name="ImportTime" Val="1592489505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_j.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_j.mem"/>
+        <Attr Name="ImportTime" Val="1592489592"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_jal.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_jal.mem"/>
+        <Attr Name="ImportTime" Val="1592489881"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mem/test_jr.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Mars/mem/test_jr.mem"/>
+        <Attr Name="ImportTime" Val="1592490247"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TestData/mips_31_mars_simulate.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sccomp_dataflow"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

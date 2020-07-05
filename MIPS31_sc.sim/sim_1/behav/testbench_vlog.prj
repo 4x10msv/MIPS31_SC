@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/IRAM.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/RegFiles.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/PCReg.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/NPC.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/MUX4.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/MUX2.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/EXT.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/DRAM.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/ControlUnit.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/ALU.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/ADD.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/Top.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sources_1/new/sccomp_dataflow.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../MIPS31_sc.srcs/sim_1/new/testbench.v" --include "../../../MIPS31_sc.srcs/sources_1/new"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
